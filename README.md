@@ -40,7 +40,7 @@ The core model is a sequence-to-sequence architecture:
 
 1.  Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo-name.git
+    git clone https://github.com/wbmlr/LSTM-Text-Generation.git
     cd your-repo-name
     ```
 2.  Create a virtual environment (recommended):
@@ -80,7 +80,41 @@ The script will:
 
 *(You can fill this section in after running your code)*
 
-*   **Training Loss:** Observe how the training and validation loss decreases over epochs, indicating model learning.
+*   **Training Loss:**
+Epoch 1, Batch 100: Loss: 11.0294
+Epoch 1, Batch 200: Loss: 9.9117
+Epoch 1, Batch 300: Loss: 8.6946
+Epoch 1, Batch 400: Loss: 7.6520
+Epoch 1, Batch 500: Loss: 7.6661
+Epoch 1, Batch 600: Loss: 7.2123
+Epoch 1, Batch 700: Loss: 6.9333
+Epoch 1, Batch 800: Loss: 7.0525
+Epoch 1, Batch 900: Loss: 6.7685
+Epoch 1, Batch 1000: Loss: 6.9260
+Epoch 1, Batch 1100: Loss: 7.0480
+Epoch 1, Batch 1200: Loss: 6.9335
+Epoch 1, Batch 1300: Loss: 6.9979
+Epoch 1, Batch 1400: Loss: 6.5703
+Epoch 1, Batch 1500: Loss: 6.8171
+Epoch 1: Train Loss: 7.6421
+Epoch 1: Test Loss: 6.6222
+Epoch 2, Batch 100: Loss: 6.3407
+Epoch 2, Batch 200: Loss: 6.6688
+Epoch 2, Batch 300: Loss: 5.8165
+Epoch 2, Batch 400: Loss: 6.6644
+Epoch 2, Batch 500: Loss: 6.3345
+Epoch 2, Batch 600: Loss: 6.4264
+Epoch 2, Batch 700: Loss: 6.5102
+Epoch 2, Batch 800: Loss: 6.9513
+Epoch 2, Batch 900: Loss: 6.1933
+Epoch 2, Batch 1000: Loss: 6.3838
+Epoch 2, Batch 1100: Loss: 6.4935
+Epoch 2, Batch 1200: Loss: 6.3313
+Epoch 2, Batch 1300: Loss: 6.6475
+Epoch 2, Batch 1400: Loss: 6.4704
+Epoch 2, Batch 1500: Loss: 6.6284
+Epoch 2: Train Loss: 6.5207
+Epoch 2: Test Loss: 6.4924
 *   **Memory Efficiency:** The applied optimizations successfully allowed the model to train on GPUs with limited memory, overcoming CUDA Out-of-Memory errors.
 *   **Quantization Impact:** Compare the accuracy/loss of the original model versus the quantized model. Note the trade-off between performance and efficiency.
 *   **Generated Text:** Examine the quality of the generated text. Early training stages might produce incoherent text, but with more epochs, the quality should improve.
